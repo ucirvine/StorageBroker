@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit
+    convertErrorsToExceptions   = "true"
+    convertNoticesToExceptions  = "true"
+    convertWarningsToExceptions = "true"
+    processIsolation            = "false"
+    stopOnFailure               = "false"
+    syntaxCheck                 = "false"
+    colors                      = "true"
+    bootstrap                   = "tests/TestBootstrap.php">
+
+    <testsuites>
+        <testsuite name="StorageBroker">
+            <directory>tests/UCI/Tests/StorageBroker</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
