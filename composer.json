@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:thackerj/TypeConverter.git"
+            "url": "git@github.com:ucirvine/TypeConverter.git"
         }
     ]
 }
