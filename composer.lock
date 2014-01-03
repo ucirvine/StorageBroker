@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d693a51c130e560cca05c484947108df",
+    "hash": "8c5750bddb20c32613134914f45d493a",
     "packages": [
         {
             "name": "deralex/yaml-config-service-provider",
@@ -572,8 +572,8 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:thackerj/TypeConverter.git",
-                "reference": "8bd6d44bd265ebb0c861c5557fbef681f093f362"
+                "url": "git@github.com:ucirvine/TypeConverter.git",
+                "reference": "df533f552b9d1e57c925b4ee5a6cee708f9299d1"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -596,8 +596,8 @@
                 }
             ],
             "description": "TypeConverter is a Silex-compatible PHP utility for converting between data types and/or classes.",
-            "homepage": "http://github.com/ucirvine/TypeConverter",
-            "time": "2013-12-23 21:19:59"
+            "homepage": "https://github.com/ucirvine/TypeConverter",
+            "time": "2014-01-03 00:10:27"
         }
     ],
     "packages-dev": [
