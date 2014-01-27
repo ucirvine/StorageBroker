@@ -64,7 +64,8 @@ class BoundDatabaseConstraintFactory implements BoundConstraintFactoryInterface
      */
     public function any()
     {
-        return new Any();
+        $dvm = $this->getDatabaseValueMap();
+        return new Any($dvm);
     }
 
     /**
