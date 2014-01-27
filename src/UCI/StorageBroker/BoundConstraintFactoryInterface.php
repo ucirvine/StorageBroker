@@ -40,6 +40,15 @@ namespace UCI\StorageBroker;
 interface BoundConstraintFactoryInterface
 {
     /**
+     * Matches any row. The rough equivalent of "fetch all".
+     *
+     * Combine with other constraints at your peril!
+     *
+     * @return mixed
+     */
+    public function any();
+
+    /**
      * Specifies that a class' property should be equal to the provided value
      *
      * @param $property

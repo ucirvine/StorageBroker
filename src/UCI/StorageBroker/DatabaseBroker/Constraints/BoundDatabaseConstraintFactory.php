@@ -56,6 +56,18 @@ class BoundDatabaseConstraintFactory implements BoundConstraintFactoryInterface
     }
 
     /**
+     * Matches any row. The rough equivalent of "fetch all".
+     *
+     * Combine with other constraints at your peril!
+     *
+     * @return mixed
+     */
+    public function any()
+    {
+        return new Any();
+    }
+
+    /**
      * Returns a new Equals constraint
      *
      * @param $property
