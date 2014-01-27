@@ -40,7 +40,7 @@ class AnyTest extends \PHPUnit_Framework_TestCase
 
     public function testGetSqlWithPlaceholders()
     {
-        $this->assertEquals('1', $this->any->getSqlWithPlaceholders());
+        $this->assertEquals('1=1', $this->any->getSqlWithPlaceholders());
     }
 
     public function testGetDatabaseValueMap()
