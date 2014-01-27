@@ -33,14 +33,14 @@ class Any implements DatabaseConstraintInterface
     }
 
     /**
-     * Returns the string "1". This, when placed in the WHERE clause of
+     * Returns the string "1=1". This, when placed in the WHERE clause of
      * a SQL query, will select all rows.
      *
      * @return string
      */
     public function getSqlWithPlaceholders()
     {
-        return '1';
+        return '1=1';
     }
 
     /**
